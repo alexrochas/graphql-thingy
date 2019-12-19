@@ -21,4 +21,10 @@ public class StaticDatabase {
     List<Author> authors = Lists.newArrayList(
             a1, a2
     );
+
+    public List<Post> addPost(Post p) {
+        posts.add(p);
+        return posts;
+    }
+
 }
